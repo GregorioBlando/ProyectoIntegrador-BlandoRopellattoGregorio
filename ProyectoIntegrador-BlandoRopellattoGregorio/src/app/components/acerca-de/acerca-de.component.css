@@ -1,0 +1,61 @@
+.row {
+    padding: 20px;
+    margin-right: 20px;
+}
+
+div {
+    text-align: center;
+}
+
+li{
+    text-align: left;
+}
+
+/* Container */
+
+#acercade{
+    background-color: rgb(0, 0, 0);
+}
+
+/* Foto de perfil */
+
+@media (min-width: 576px){
+    #fotocarnet{
+        position: absolute;
+        width: 15%; 
+        border-radius: 100%;
+        left: 5%;
+        top: 660px;
+    }
+}
+
+@media (max-width: 575px){
+    #fotocarnet{
+        position: absolute;
+         width: 30%; 
+         border-radius: 100%;
+         left: 35%;
+         top: 230px;
+    }
+}
+
+/* textos */
+
+#nombre {
+    font-weight: bold;
+    font-size: 2.5rem;
+    color: rgb(255, 255, 255);
+}
+
+#titulo{
+    color: rgb(255, 255, 255);
+}
+
+#acercademi{
+    color: rgb(255, 255, 255);
+}
+
+#datos{
+    text-align: left;
+    margin-left: 120px;
+}
