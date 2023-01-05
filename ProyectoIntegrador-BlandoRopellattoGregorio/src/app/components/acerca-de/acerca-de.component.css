@@ -19,7 +19,7 @@ li{
 
 /* Foto de perfil */
 
-@media (min-width: 576px){
+@media (min-width: 1227px){
     #fotocarnet{
         position: absolute;
         width: 15%; 
@@ -29,13 +29,13 @@ li{
     }
 }
 
-@media (max-width: 575px){
+@media (max-width: 1227px){
     #fotocarnet{
         position: absolute;
-         width: 30%; 
+         width: 25%; 
          border-radius: 100%;
-         left: 35%;
-         top: 230px;
+         left: 38%;
+         top: 290px;
     }
 }
 
@@ -57,5 +57,5 @@ li{
 
 #datos{
     text-align: left;
-    margin-left: 120px;
+    margin-left: 60px;
 }

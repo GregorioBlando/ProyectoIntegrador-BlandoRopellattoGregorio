@@ -1,0 +1,14 @@
+.container{
+    padding: 50px;
+    text-align: justify;
+}
+
+.col{
+    width: auto;
+}
+.p-1, .p-2{
+    display: inline;
+}
+.img{
+    box-shadow: 10px 10px 30px black;
+}
