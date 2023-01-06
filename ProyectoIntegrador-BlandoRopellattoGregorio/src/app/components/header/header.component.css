@@ -1,7 +1,52 @@
-#header-sup{
+/* Clases */
+.row {
     background-color: black;
+    margin: 0%;
 }
-app-redes-sociales{
-    float: right;
-    margin-top: 25px;
+
+.container {
+    display: flex;
+    align-items: center;
+    padding-right: 25px;
+}
+
+/* Ids */
+#redes {
+    display: contents;
+}
+
+#logo {
+    width: 150px;
+}
+
+#linkedin,
+#artstation,
+#github,
+#instagram {
+    width: 50px;
+    margin-right: 20px;
+}
+
+#banner {
+    width: 100%;
+    filter: blur(3px);
+    padding: 10px;
+}
+
+/* Vista celular */
+@media (max-width: 575px) {
+    .container {
+        flex-direction: column;
+        padding-left: 25px;
+    }
+
+    #redes {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #redes img {
+        margin: 5px;
+    }
 }
