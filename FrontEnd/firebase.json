@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "FrontEnd/dist/proyecto-integrador-blando-ropellatto-gregorio",
+    "public": "dist/proyecto-integrador-blando-ropellatto-gregorio",
     "ignore": [
       "firebase.json",
       "**/.*",
