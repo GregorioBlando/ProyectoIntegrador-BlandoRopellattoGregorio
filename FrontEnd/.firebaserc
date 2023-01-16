@@ -1,5 +1,14 @@
 {
   "projects": {
     "default": "proyectointegrador-frontend"
+  },
+  "targets": {
+    "proyectointegrador-frontend": {
+      "hosting": {
+        "ProyectoIntegrador-BlandoRopellattoGregorio": [
+          "proyectointegrador-frontend"
+        ]
+      }
+    }
   }
 }

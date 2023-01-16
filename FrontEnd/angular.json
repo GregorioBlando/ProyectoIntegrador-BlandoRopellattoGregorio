@@ -93,6 +93,16 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "ProyectoIntegrador-BlandoRopellattoGregorio:build:production",
+            "firebaseProject": "proyectointegrador-frontend",
+            "firebaseHostingSite": "proyectointegrador-frontend"
+          }
         }
       }
     }
